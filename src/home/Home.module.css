@@ -10,11 +10,9 @@ form{
 form input{
    text-align: center;
    margin-top: 5px;
-   
-   border-radius: 8px;
    color: white;
    opacity: 0.8;
-   height: 35px;
+   height: 45px;
    transition: 0.3s;
    font-size: 20px;
    

@@ -1,0 +1,38 @@
+form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    animation: slideIn 0.8s;
+}
+
+form input{
+   text-align: center;
+   margin-top: 5px;
+   
+   border-radius: 8px;
+   color: white;
+   opacity: 0.8;
+   height: 35px;
+   transition: 0.3s;
+   font-size: 20px;
+   
+}
+form input:hover{
+    opacity: 1;
+    background-color: #1a1a1a;
+}
+
+form button:hover{
+    opacity: 1;
+}
+
+@keyframes slideIn{
+    from {transform: translateX(-100%);
+    opacity:0;
+    }
+    to {transform: translateX(0);
+    opacity: 1;}
+
+}
